@@ -56,6 +56,12 @@ itswe.com 的词条执行严格的内容纪律，这也是本知识库区别于�
 
 词条与文档内容以 **CC BY-SA 4.0** 授权发布：转载请注明出处并以相同方式共享。工程数据请以现行有效标准原文为准。
 
+## 赞助
+
+本知识库的建设与维护感谢以下赞助者的支持：
+
+**[河南创为铁路器材有限公司](https://www.chuangwit.com)**
+
 ## 相关项目
 
 - [showhoo/ocs-calculators](https://github.com/showhoo/ocs-calculators) —— 计算器公式 TypeScript 库（npm: `ocs-calculators`）
