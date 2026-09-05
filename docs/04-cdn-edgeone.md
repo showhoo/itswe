@@ -51,7 +51,11 @@ location ~* \.(css|js|png|svg|woff2?)$ {
 接入 CDN 后，源站日志的 `remote_addr` 变成 **EdgeOne 节点 IP**，真实访客 IP 在 `X-Forwarded-For`：
 
 ```nginx
-set_real_ip_from 0.0.0.0/0;   # 或精确的 EdgeOne 回源网段
+# 只信任 CDN 官方公布的回源网段（EdgeOne 控制台「回源 IP 段」页面可查）。
+# 切勿写成 0.0.0.0/0——那等于允许任意来源伪造 X-Forwarded-For，
+# 会污染统计日志、绕过基于 IP 的限速与封禁。
+set_real_ip_from <EdgeOne回源网段-1>;
+set_real_ip_from <EdgeOne回源网段-2>;
 real_ip_header X-Forwarded-For;
 real_ip_recursive on;
 ```
