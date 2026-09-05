@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 站点词条内容勘误
+    url: https://www.itswe.com/contact
+    about: 词条正文的事实性错误请优先通过站点联系页反馈，由编辑复核处理
+  - name: 投稿规范
+    url: https://www.itswe.com/contribute
+    about: 向 itswe.com 投稿或提交词条修订建议的流程说明

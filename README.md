@@ -20,10 +20,12 @@
 |---|---|
 | 张力与弛度 | [calculator/tension](https://www.itswe.com/calculator/tension/) |
 | 吊弦 | [calculator/dropper](https://www.itswe.com/calculator/dropper/) |
+| 补偿行程 | [calculator/stroke](https://www.itswe.com/calculator/stroke/) |
 | 风偏与绝缘间隙 | [calculator/wind](https://www.itswe.com/calculator/wind/) |
 | 接触线磨耗 | [calculator/wear](https://www.itswe.com/calculator/wear/) |
 | 覆冰 | [calculator/icing](https://www.itswe.com/calculator/icing/) |
 | 载流量 | [calculator/ampacity](https://www.itswe.com/calculator/ampacity/) |
+| 接触线参数速查 | [calculator/copper](https://www.itswe.com/calculator/copper/) |
 | 波速传播 | [calculator/wavespeed](https://www.itswe.com/calculator/wavespeed/) |
 | 电压降 | [calculator/voltage-drop](https://www.itswe.com/calculator/voltage-drop/) |
 | 悬挂受力 | [calculator/force](https://www.itswe.com/calculator/force/) |
