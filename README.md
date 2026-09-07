@@ -5,12 +5,13 @@
 
 **[www.itswe.com](https://www.itswe.com)** 是面向铁路接触网（Overhead Contact System，OCS）工程师、院校师生与铁路爱好者的中文开放知识库：
 
-- 📖 **495 篇系统化词条** —— 接触网悬挂、张力、吊弦、风偏、磨耗、覆冰、波速传播等主题，按分类体系组织，数值全部溯源到标准条文
+- 📖 **494 篇系统化词条（全站 548 页）** —— 接触网悬挂、张力、吊弦、风偏、磨耗、覆冰、波速传播等主题，按 12 大栏目分类体系组织，数值全部溯源到标准条文
+- 📝 **在线题库 6,563 题** —— 电气化铁路（2,939）与城轨（3,624）两大板块：知识点刷题、错题本、4 套标准模拟卷（120 题 90 分钟），服务端自动评分
 - 🧮 **12 个在线工程计算器** —— 张力/弛度、吊弦、风偏、磨耗、载流量、覆冰、波速、电压降等，浏览器直接计算、无需登录
 - 📜 **标准规范速查** —— GB/T、TB/T 系列接触网标准的关键数值速查卡，随新标准发布同步更新
 - 📱 **PWA 支持** —— 计算器与术语可安装到手机离线使用
 
-> **English**: [itswe.com](https://www.itswe.com) is a Chinese open knowledge base for railway **overhead contact line (OCL / OCS)** engineering — 495 structured articles (550+ pages in total), 12 interactive calculators, and quick-reference cards for Chinese national (GB/T) and railway industry (TB/T) standards. Free, no login required, installable as a PWA.
+> **English**: [itswe.com](https://www.itswe.com) is a Chinese open knowledge base for railway **overhead contact line (OCL / OCS)** engineering — 494 structured articles (548 pages), a 6,563-question online exam bank for railway & metro OCS, 12 interactive calculators, and quick-reference cards for Chinese national (GB/T) and railway industry (TB/T) standards. Free, no login required, installable as a PWA.
 
 ## 在线计算器
 
@@ -33,6 +34,21 @@
 
 计算器公式库的 TypeScript 测试套件见姊妹仓库 [showhoo/ocs-calculators](https://github.com/showhoo/ocs-calculators)（零依赖纯函数 + 152 项单元测试）。
 
+## 站点结构与栏目
+
+内容按 **12 大栏目**组织（条目数与站内 [llms.txt](https://www.itswe.com/llms.txt) 同源，2026-09）：
+
+| 栏目 | 条目 | 栏目 | 条目 |
+|---|---|---|---|
+| [零部件库](https://www.itswe.com/Category:parts) | 104 | [常见故障与案例库](https://www.itswe.com/Category:cases) | 42 |
+| [基础理论](https://www.itswe.com/Category:theory) | 47 | [标准规范库](https://www.itswe.com/Category:standards) | 87 |
+| [设计与计算](https://www.itswe.com/Category:design) | 24 | [术语库](https://www.itswe.com/Category:glossary) | 64 |
+| [施工与验收](https://www.itswe.com/Category:construction) | 21 | [城轨供电与受流](https://www.itswe.com/Category:metro) | 29 |
+| [运维与检测](https://www.itswe.com/Category:operation) | 37 | [在线题库](https://www.itswe.com/exam/) | 6,563 题 |
+| [6C 检测体系](https://www.itswe.com/Category:6c) | 33 | [工具与计算器](https://www.itswe.com/Category:tools) | 12 |
+
+完整分类树与各栏目内容说明见 **[docs/07 · 站点结构与内容地图](docs/07-site-structure.md)**。
+
 ## 开源建站文档
 
 本仓库同时开源 itswe.com 的**完整建站实践**——单服务器承载 MediaWiki 知识库的高性能、低成本方案，全部数据来自真实生产环境实测：
@@ -44,7 +60,8 @@
 | [03 · nginx SNI 分流](docs/03-nginx-sni-stream.md) | 一个 443 端口服务多个 HTTPS 站点（`ssl_preread` 实战） |
 | [04 · 国内 CDN 接入](docs/04-cdn-edgeone.md) | EdgeOne 接入与回源策略，首屏 **0.97s → 0.12s（8×）** 实测 |
 | [05 · Wiki SEO 工程实践](docs/05-wiki-seo-practices.md) | sitemap / llms.txt / OG 图自动生成 / 百度收录通道 |
-| [06 · 内容生产流水线](docs/06-content-pipeline.md) | 495 词条的工业化生产、质检与发布纪律 |
+| [06 · 内容生产流水线](docs/06-content-pipeline.md) | 百科词条的工业化生产、质检与发布纪律 |
+| [07 · 站点结构与内容地图](docs/07-site-structure.md) | 12 大栏目、两级分类树与在线题库：写什么、在哪、有多少 |
 
 ## 内容规范
 
