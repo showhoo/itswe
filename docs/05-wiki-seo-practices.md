@@ -34,8 +34,9 @@ requests.post(f'http://data.zz.baidu.com/urls?site={site}&token={token}',
 
 传统 SEO 之外，AI 搜索引擎（ChatGPT/Perplexity 等）正在成为内容入口。itswe.com 的做法：
 
-- 维护 `llms.txt`：站点简介 + 全部内容页的标题/摘要索引（500+ 页）
+- 维护 `llms.txt`：站点简介 + 全部内容页的标题/摘要索引（709 页，2026-09-17 实测）
 - robots.txt 里声明内容使用偏好（AIPREF 信号行）：允许抓取引用、要求署名
+- 唯一例外：商业 SEO 爬虫 **SemrushBot** 具名全站禁抓（独立 UA 组 `Disallow: /`，nginx 层同步 403 加固，2026-09-15 站长拍板）——其余 28 组具名 AI 爬虫（GPTBot、ClaudeBot、PerplexityBot、Bytespider 等）与通用组维持 `Allow: /` 放行策略不变
 
 > 注意：robots.txt 中非标准指令（如 `Content-Usage:`）对 Google 无害——解析器跳过未知行，Allow/Disallow/Sitemap 照常生效。
 

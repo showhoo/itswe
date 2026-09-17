@@ -5,13 +5,13 @@
 
 **[www.itswe.com](https://www.itswe.com)** 是面向铁路接触网（Overhead Contact System，OCS）工程师、院校师生与铁路爱好者的中文开放知识库：
 
-- 📖 **494 篇系统化词条（全站 548 页）** —— 接触网悬挂、张力、吊弦、风偏、磨耗、覆冰、波速传播等主题，按 12 大栏目分类体系组织，数值全部溯源到标准条文
-- 📝 **在线题库 6,563 题** —— 电气化铁路（2,939）与城轨（3,624）两大板块：知识点刷题、错题本、4 套标准模拟卷（120 题 90 分钟），服务端自动评分
-- 🧮 **12 个在线工程计算器** —— 张力/弛度、吊弦、风偏、磨耗、载流量、覆冰、波速、电压降等，浏览器直接计算、无需登录
+- 📖 **639 篇系统化词条（全站 709 页）** —— 接触网悬挂、张力、吊弦、风偏、磨耗、覆冰、波速传播等主题，按 12 大栏目分类体系组织，数值全部溯源到标准条文
+- 📝 **在线题库 9,166 题** —— 电气化铁路（5,542）与城轨（3,624）两大板块：知识点刷题、错题本、9 套模拟卷（标准卷 120 题 / 快练卷 50 题）与铁路、城轨试题答案精选页（各 50 道高频题，免登录查阅），服务端自动评分
+- 🧮 **20 个在线工程计算器** —— 张力/弛度、吊弦、风偏、磨耗、载流量、覆冰、波速、电压降等，浏览器直接计算、无需登录
 - 📜 **标准规范速查** —— GB/T、TB/T 系列接触网标准的关键数值速查卡，随新标准发布同步更新
 - 📱 **PWA 支持** —— 计算器与术语可安装到手机离线使用
 
-> **English**: [itswe.com](https://www.itswe.com) is a Chinese open knowledge base for railway **overhead contact line (OCL / OCS)** engineering — 494 structured articles (548 pages), a 6,563-question online exam bank for railway & metro OCS, 12 interactive calculators, and quick-reference cards for Chinese national (GB/T) and railway industry (TB/T) standards. Free, no login required, installable as a PWA.
+> **English**: [itswe.com](https://www.itswe.com) is a Chinese open knowledge base for railway **overhead contact line (OCL / OCS)** engineering — 639 structured articles (709 pages), a 9,166-question online exam bank for railway & metro OCS, 20 interactive calculators, and quick-reference cards for Chinese national (GB/T) and railway industry (TB/T) standards. Free, no login required, installable as a PWA.
 
 ## 在线计算器
 
@@ -19,33 +19,41 @@
 
 | 计算器 | 链接 |
 |---|---|
-| 张力与弛度 | [calculator/tension](https://www.itswe.com/calculator/tension/) |
-| 吊弦 | [calculator/dropper](https://www.itswe.com/calculator/dropper/) |
-| 补偿行程 | [calculator/stroke](https://www.itswe.com/calculator/stroke/) |
-| 风偏与绝缘间隙 | [calculator/wind](https://www.itswe.com/calculator/wind/) |
-| 接触线磨耗 | [calculator/wear](https://www.itswe.com/calculator/wear/) |
-| 覆冰 | [calculator/icing](https://www.itswe.com/calculator/icing/) |
-| 载流量 | [calculator/ampacity](https://www.itswe.com/calculator/ampacity/) |
+| 张力-温度安装曲线生成器 | [calculator/tension](https://www.itswe.com/calculator/tension/) |
+| 弓网接触力统计评价 | [calculator/force](https://www.itswe.com/calculator/force/) |
+| 载流量修正与短路热稳定 | [calculator/ampacity](https://www.itswe.com/calculator/ampacity/) |
+| 吊弦长度计算 | [calculator/dropper](https://www.itswe.com/calculator/dropper/) |
+| 风偏限界校验 | [calculator/wind](https://www.itswe.com/calculator/wind/) |
+| 接触线磨耗率计算 | [calculator/wear](https://www.itswe.com/calculator/wear/) |
 | 接触线参数速查 | [calculator/copper](https://www.itswe.com/calculator/copper/) |
-| 波速传播 | [calculator/wavespeed](https://www.itswe.com/calculator/wavespeed/) |
-| 电压降 | [calculator/voltage-drop](https://www.itswe.com/calculator/voltage-drop/) |
-| 悬挂受力 | [calculator/force](https://www.itswe.com/calculator/force/) |
-| 曲线区段拉出值 | [calculator/curve-stagger](https://www.itswe.com/calculator/curve-stagger/) |
+| 补偿行程计算 | [calculator/stroke](https://www.itswe.com/calculator/stroke/) |
+| 波速利用率计算 | [calculator/wavespeed](https://www.itswe.com/calculator/wavespeed/) |
+| 电压降校核 | [calculator/voltage-drop](https://www.itswe.com/calculator/voltage-drop/) |
+| 曲线拉出值综合偏移校核 | [calculator/curve-stagger](https://www.itswe.com/calculator/curve-stagger/) |
+| 覆冰荷载校核 | [calculator/icing](https://www.itswe.com/calculator/icing/) |
+| 锚段长度计算 | [calculator/anchor-length](https://www.itswe.com/calculator/anchor-length/) |
+| b 值计算 | [calculator/bvalue](https://www.itswe.com/calculator/bvalue/) |
+| 腕臂预配计算 | [calculator/cantilever](https://www.itswe.com/calculator/cantilever/) |
+| 爬电距离校核 | [calculator/creepage](https://www.itswe.com/calculator/creepage/) |
+| 软横跨负载计算 | [calculator/cross-span](https://www.itswe.com/calculator/cross-span/) |
+| 支柱容量选型 | [calculator/pole-capacity](https://www.itswe.com/calculator/pole-capacity/) |
+| 弛度-张力互算 | [calculator/sag](https://www.itswe.com/calculator/sag/) |
+| 定位器坡度计算 | [calculator/steady-arm](https://www.itswe.com/calculator/steady-arm/) |
 
-计算器公式库的 TypeScript 测试套件见姊妹仓库 [showhoo/ocs-calculators](https://github.com/showhoo/ocs-calculators)（零依赖纯函数 + 152 项单元测试）。
+计算器公式库的 TypeScript 测试套件见姊妹仓库 [showhoo/ocs-calculators](https://github.com/showhoo/ocs-calculators)（零依赖纯函数 + 218 项单元测试，npm 包 ocs-calculators v0.3.0）。
 
 ## 站点结构与栏目
 
-内容按 **12 大栏目**组织（条目数与站内 [llms.txt](https://www.itswe.com/llms.txt) 同源，2026-09）：
+内容按 **12 大栏目**组织（条目数与站内 [llms.txt](https://www.itswe.com/llms.txt) 同源，2026-09-17）：
 
 | 栏目 | 条目 | 栏目 | 条目 |
 |---|---|---|---|
-| [零部件库](https://www.itswe.com/Category:parts) | 104 | [常见故障与案例库](https://www.itswe.com/Category:cases) | 42 |
-| [基础理论](https://www.itswe.com/Category:theory) | 47 | [标准规范库](https://www.itswe.com/Category:standards) | 87 |
-| [设计与计算](https://www.itswe.com/Category:design) | 24 | [术语库](https://www.itswe.com/Category:glossary) | 64 |
-| [施工与验收](https://www.itswe.com/Category:construction) | 21 | [城轨供电与受流](https://www.itswe.com/Category:metro) | 29 |
-| [运维与检测](https://www.itswe.com/Category:operation) | 37 | [在线题库](https://www.itswe.com/exam/) | 6,563 题 |
-| [6C 检测体系](https://www.itswe.com/Category:6c) | 33 | [工具与计算器](https://www.itswe.com/Category:tools) | 12 |
+| [零部件库](https://www.itswe.com/Category:parts) | 107 | [常见故障与案例库](https://www.itswe.com/Category:cases) | 42 |
+| [基础理论](https://www.itswe.com/Category:theory) | 46 | [标准规范库](https://www.itswe.com/Category:standards) | 137 |
+| [设计与计算](https://www.itswe.com/Category:design) | 24 | [术语库](https://www.itswe.com/Category:glossary) | 58 |
+| [施工与验收](https://www.itswe.com/Category:construction) | 21 | [城轨供电与受流](https://www.itswe.com/Category:metro) | 49 |
+| [运维与检测](https://www.itswe.com/Category:operation) | 35 | [在线题库](https://www.itswe.com/exam/) | 9,166 题 |
+| [6C 检测体系](https://www.itswe.com/Category:6c) | 33 | [工具与计算器](https://www.itswe.com/Category:tools) | 20 |
 
 完整分类树与各栏目内容说明见 **[docs/07 · 站点结构与内容地图](docs/07-site-structure.md)**。
 
